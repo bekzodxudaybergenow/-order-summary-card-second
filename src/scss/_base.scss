@@ -1,0 +1,12 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--Red_Hat_Display);
+    font-size: 16px;
+    background-color: #e0e8ff;
+}

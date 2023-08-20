@@ -85,4 +85,13 @@
     }
 }
 .card__content--cancelbtn {
+    font-weight: 900;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--Desaturated-blue);
+    transition: color ease-in-out .2s;
+
+    &:hover {
+        color: var(--Dark-blue);
+    }
 }

@@ -47,11 +47,22 @@
     margin-left: 20px;
 }
 .card__text--subtitle {
+    font-weight: 900;
+    color: var(--Dark-blue);
+    margin-bottom: 8px;
 }
 .card__text--price {
+    color: var(--Desaturated-blue)
 }
 .card__plan--link {
+    font-weight: 700;
     margin-left: auto;
+    transition: ease-in-out .2s;
+
+    &:hover {
+        opacity: .7;
+        text-decoration-color: transparent;
+    }
 }
 .card__content--btn {
     display: flex;

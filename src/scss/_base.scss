@@ -15,6 +15,10 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-image: url('/src/images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
 }
 .flex {
     display: flex;

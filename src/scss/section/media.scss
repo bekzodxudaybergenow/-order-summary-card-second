@@ -1,0 +1,43 @@
+@media only screen and (max-width: 820px) {
+    .wrapper__row {
+        background-image: url('/src/images/pattern-background-mobile.svg');
+    }
+}
+@media only screen and (max-width: 520px) {
+    .card {
+        margin: 20px;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .card__image{
+        max-width: 100%;
+        height: auto;
+
+        & img {
+            display: block;
+            max-width: 100%;
+            height: auto;   
+        }
+    }
+    .card__content--title {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .card__content--desc {
+        font-size: 18px;
+        margin-bottom: 14px;
+    }
+    .card__content__plan {
+        padding: 14px 24px;
+        margin-bottom: 22px;
+    }
+    .card__plan--img img {
+        width: 40px;
+    }
+    .card__text--subtitle,
+    .card__text--price,
+    .card__content--btn,
+    .card__content--cancelbtn {
+        font-size: 16px;
+    }
+}

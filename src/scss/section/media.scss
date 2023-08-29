@@ -41,3 +41,54 @@
         font-size: 16px;
     }
 }
+@media only screen and (max-width: 420px) {
+    .card {
+        min-height: 650px;
+    }
+    .card__content {
+        padding: 40px 25px 56px;
+    }
+    .card__content--desc {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 22px;
+    }
+    
+    .card__plan__text {
+        margin-left: 18px;
+    }
+    .card__text--subtitle {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .card__plan--link,
+    .card__text--price,
+    .card__content--cancelbtn {
+        font-size: 14px;
+    }
+    .card__content--btn {
+        height: 50px;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .card {
+        min-height: 588px;
+    }
+    .card__content {
+        padding-top: 48px;
+    }
+    .card__content--desc {
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .card__content__plan {
+        padding: 8px 14px;
+    }
+    .card__plan__text {
+        margin-left: 10px;
+    }
+    .card__content--btn {
+        height: 46px;
+    }
+}
